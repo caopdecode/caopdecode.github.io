@@ -16,7 +16,7 @@ function toggleSticky() {
 window.addEventListener('scroll', toggleSticky);
 
 pro1.addEventListener('click', function() {
-    window.open("https://www.kaggle.com/code/caopdecode/customer-segmentation-project", "_blank")
+   window.location.href = './ProjectsInfo/SegmentationProject.html'
 });
 
 about.addEventListener('click', function() { 
