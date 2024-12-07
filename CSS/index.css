@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+:root {
+    --black-color: #343434;
+    --Gray-color: #8E8B82; 
+    --Beige-color: #E9DCBE;
+    --White-color: #F3F3F3; 
+  }
+
+#header{
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: var(--black-color);
+    color: var(--White-color);
+    transition: top 0.3s;
+}
+
+.brandName {
+    display: block;
+}
+
+.imgLogo {
+    display: none; 
+    min-width: 100px; 
+    min-height: 40px; 
+  }
+  
+
+header.sticky .brandName {
+    display: none;      
+}
+  
+header.sticky .imgLogo {
+    display: block;
+    margin-left: 10px;
+}
+  
+.imgLogo img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 5px;
+}
+
+#header .container .brandName{
+    margin-left: 10px;
+}
+
+#land{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#land .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100vh;
+}
+
+#land .container .landInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--White-color);
+}
+
+#land .container .landInfo h1{
+    font-size: 75px;
+    margin: 15px 0px;
+}
+
+#land .container .landInfo p{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+#land .container .landInfo button{
+    font-size: 28px;
+    width: 300px;
+    height: 50px;
+    background-color: var(--black-color);
+    color: var(--White-color);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 4px 6px 14px 0.5px  rgb(135, 135, 135);
+    transition: 0.5s;
+}
+
+#land .container .landInfo button:hover{
+    cursor: pointer;
+    background-color: var(--Gray-color);
+    transition: 0.5s;
+    translate: -5px -2px;
+}
+
+#land .container .profilePic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--White-color);
+}
+
+#land .container .profilePic img{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border: 5px solid var(--black-color);
+}
+
+#projects{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--black-color);
+    color: var(--White-color);
+}
+
+#projects h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#projects .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#projects .container .projectsSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#projects .container .projectsSection .Project{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    border: 2px solid var(--White-color);
+    border-radius: 5px;
+}
+
+#projects .container .projectsSection .Project .text{
+    opacity: 0;
+}
+
+
+#projects .container .projectsSection .Project:nth-child(1){
+    display: flex;
+    background-image: url(../IMG/Projects/Segmentacion.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects .container .projectsSection .Project:nth-child(2){
+    display: flex;
+    background-image: url(../IMG/Projects/InProgress.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects .container .projectsSection .Project:nth-child(3){
+    display: flex;
+    background-image: url(../IMG/Projects/InProgress.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects .container .projectsSection .Project:nth-child(4){
+    display: flex;
+    background-image: url(../IMG/Projects/InProgress.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects .container .projectsSection .Project:nth-child(5){
+    display: flex;
+    background-image: url(../IMG/Projects/InProgress.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects .container .projectsSection .Project:nth-child(6){
+    display: flex;
+    background-image: url(../IMG/Projects/InProgress.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects .container .projectsSection .Project:nth-child(7){
+    display: flex;
+    background-image: url(../IMG/Projects/InProgress.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects .container .projectsSection .Project:nth-child(8){
+    display: flex;
+    background-image: url(../IMG/Projects/InProgress.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects .container .projectsSection .Project:nth-child(9){
+    display: flex;
+    background-image: url(../IMG/Projects/InProgress.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects .container .projectsSection .Project:nth-child(1):hover{
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/Segmentacion.jpg);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#projects .container .projectsSection .Project:nth-child(2):hover{
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/InProgress.png);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#projects .container .projectsSection .Project:nth-child(3):hover{
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/InProgress.png);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#projects .container .projectsSection .Project:nth-child(4):hover{
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/InProgress.png);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#projects .container .projectsSection .Project:nth-child(5):hover{
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/InProgress.png);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#projects .container .projectsSection .Project:nth-child(6):hover{
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/InProgress.png);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#projects .container .projectsSection .Project:nth-child(7):hover{
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/InProgress.png);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#projects .container .projectsSection .Project:nth-child(8):hover{
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/InProgress.png);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#projects .container .projectsSection .Project:nth-child(9):hover{
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/InProgress.png);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#projects .container .projectsSection .Project:hover .text{
+    opacity: 100;
+}
+
+#about{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--White-color);
+}
+
+#about .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#about .container .infoAbout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#about .container .aboutPic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--White-color);
+}
+
+#about .container .aboutPic img{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border: 5px solid var(--black-color);
+}
+
+#about .container .aboutInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--White-color);
+}
+
+#about .container .aboutInfo h1 {
+    font-size: 70px;
+}
+
+#about .container .aboutInfo p {
+  text-align: center;
+}
+
+#footer{
+    width: 100%;
+    height: 70px;
+    background-color: var(--black-color);
+}
+
+#footer .container{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    font-size: 25px;
+}
+
+#footer .container .social-icons{
+    display: flex;
+    flex-direction: row;
+}
+
+#footer .container .social-icons li{
+    margin: 20px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--White-color);
+    transition: 0.5s;
+}
+
+a:hover{
+    color: var(--Gray-color);
+    transition: 0.5s;
+}
+
+@media (max-width: 500px){
+    #header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #land{
+        background-color: var(--White-color);
+    }
+
+    #land .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #land .container .landInfo h1{
+        font-size: 35px;
+    }
+    
+    #land .container .landInfo p{
+        font-size: 20px;
+    }
+    
+    #land .container .landInfo button{
+        font-size: 14px;
+        width: 150px;
+        height: 50px;
+     
+    }
+
+    #land .container .profilePic{
+        display: none;
+    }
+
+    #projects{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+    }
+
+    #projects .container{
+        height: 100vh;
+    }
+
+    #projects .container .projectsSection{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    #projects .container .projectsSection .Project{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    #about .container .aboutPic{
+        display: none;
+    }
+
+    #about .container .infoAbout{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    #about .container .aboutInfo h1 {
+        font-size: 35px;
+    }
+    
+    #about .container .aboutInfo p {
+      font-size: 13px;
+      padding: 20px;
+    }
+}
+
+
+    
+
+
