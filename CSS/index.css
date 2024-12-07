@@ -164,6 +164,7 @@ header.sticky .imgLogo {
 
 #projects .container .projectsSection .Project .text{
     opacity: 0;
+    transition: 0.5s;
 }
 
 
@@ -175,6 +176,7 @@ header.sticky .imgLogo {
     background-size: cover;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(2){
@@ -185,6 +187,7 @@ header.sticky .imgLogo {
     background-size: cover;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(3){
@@ -195,6 +198,7 @@ header.sticky .imgLogo {
     background-size: cover;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(4){
@@ -205,6 +209,7 @@ header.sticky .imgLogo {
     background-size: cover;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(5){
@@ -215,6 +220,7 @@ header.sticky .imgLogo {
     background-size: cover;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(6){
@@ -225,6 +231,7 @@ header.sticky .imgLogo {
     background-size: cover;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(7){
@@ -235,6 +242,7 @@ header.sticky .imgLogo {
     background-size: cover;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(8){
@@ -245,6 +253,7 @@ header.sticky .imgLogo {
     background-size: cover;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(9){
@@ -255,6 +264,7 @@ header.sticky .imgLogo {
     background-size: cover;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(1):hover{
@@ -262,6 +272,7 @@ header.sticky .imgLogo {
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/Segmentacion.jpg);
     font-weight: bold;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(2):hover{
@@ -269,6 +280,7 @@ header.sticky .imgLogo {
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/InProgress.png);
     font-weight: bold;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(3):hover{
@@ -276,6 +288,7 @@ header.sticky .imgLogo {
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/InProgress.png);
     font-weight: bold;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(4):hover{
@@ -283,6 +296,7 @@ header.sticky .imgLogo {
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/InProgress.png);
     font-weight: bold;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(5):hover{
@@ -290,6 +304,7 @@ header.sticky .imgLogo {
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/InProgress.png);
     font-weight: bold;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(6):hover{
@@ -297,6 +312,7 @@ header.sticky .imgLogo {
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/InProgress.png);
     font-weight: bold;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(7):hover{
@@ -304,6 +320,7 @@ header.sticky .imgLogo {
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/InProgress.png);
     font-weight: bold;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(8):hover{
@@ -311,6 +328,7 @@ header.sticky .imgLogo {
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/InProgress.png);
     font-weight: bold;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:nth-child(9):hover{
@@ -318,10 +336,12 @@ header.sticky .imgLogo {
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMG/Projects/InProgress.png);
     font-weight: bold;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 #projects .container .projectsSection .Project:hover .text{
     opacity: 100;
+    transition: 0.5s;
 }
 
 #about{
